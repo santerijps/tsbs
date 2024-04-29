@@ -1,0 +1,29 @@
+{
+  "name": "tsbs",
+  "version": "0.1.0",
+  "description": "TypeScript NPM package bootstrapper",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/santerijps/tsbs"
+  },
+  "main": "dist/index.js",
+  "bin": "dist/bin.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "author": "Santeri Sydänmetsä",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
