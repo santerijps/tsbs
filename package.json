@@ -1,5 +1,5 @@
 {
-  "name": "tsbs",
+  "name": "@santerijps/tsbs",
   "version": "0.1.0",
   "description": "TypeScript NPM package bootstrapper",
   "repository": {
@@ -7,7 +7,9 @@
     "url": "https://github.com/santerijps/tsbs"
   },
   "main": "dist/index.js",
-  "bin": "dist/bin.js",
+  "bin": {
+    "tsbs": "dist/bin.js"
+  },
   "types": "dist/index.d.ts",
   "files": [
     "dist/**"
